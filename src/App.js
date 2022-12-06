@@ -1,10 +1,42 @@
-import React from 'react';
-// TODO: Add a comment explaining what this import statement is doing
-import HelloReact from './components/HelloReact';
+import React, { useState } from 'react';
 
-// TODO: Add a comment explaining the purpose of the App component
+// import './App.css'
+
+import Nav from './components/Nav';
+import About from './components/About';
+import Contact from './components/Contact';
+import Portfolio from './components/Portfolio';
+import Resume from './components/Resume';
+
+
+
+
 function App() {
-  return <HelloReact />;
+
+  const [pageIndex, setPageIndex] = useState(0);
+
+  return (
+
+    <div className='App'>
+      <Nav 
+         showAbout={() => setPageIndex(0)}
+         showPortfolio={() => setPageIndex(1)}
+         showContact={() => setPageIndex(2)}
+         showResume={() => setPageIndex(3)}
+         />
+         {pageIndex === 0 ? (
+          <About />
+         ) : pageIndex === 1 ? (
+          <Portfolio />
+         ) : pageIndex === 2 ? (
+          <Contact />
+         ) : pageIndex === 3 ? (
+          <Resume />
+         ) : (
+          <About />
+         )}
+    </div>
+  );
 }
 
 export default App;
