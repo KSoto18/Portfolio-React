@@ -1,39 +1,50 @@
 import React from 'react';
 
+import Work from '../Work'
+
 import PokewireImg from '../../assets/PokéWire.gif'
 import NovelSips from '../../assets/Novel-Sips.jpg'
 
 
-const Portfolio = ({ pokewire }) => {
-    return (
+const Portfolio = () => {
 
-        <section> PORTFOLIO
+        const work = [
+                {
+                  title: 'PokeWire',
+                  description: 'Search for the locations of your favorite Pokemons!',
+                  link: " ",
+                  repo: " ",
+                  img: PokewireImg
 
-            <div >  
-                    <img src={PokewireImg}></img>
-                    <a target='new' href='https://luckysal.github.io/pokewire/'>PokeWire</a>
-            </div>
+                }
+        ];
 
-            <div >
-                    <img src={NovelSips}></img>
-                    <a target='new' href='https://young-gorge-24694.herokuapp.com/'>Novel-Sips</a>
-            </div>
+        return (
 
-            <div >
-                    <a target='new' href=' '>OTHER</a>
-            </div>
+                <section>
 
-            <div >
-                    <a target='new' href=' '>OTHER</a>
-            </div>
+                     <h2>Portfolio</h2>
+
+                        <div >
+                         
+                         {work.map((work) => {
+                            return <Work 
+                               title={work.title}
+                               description={work.description}
+                               id={work.id}
+                               link={work.link}
+                               repo={work.repo}
+                               img={work.img}
+                          />
+})}
+ 
+
+                        </div>
+
+                </section>
 
 
-
-
-        </section>
-
-
-    );
+        );
 };
 
 export default Portfolio;
