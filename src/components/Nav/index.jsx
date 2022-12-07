@@ -1,16 +1,18 @@
 import React from 'react';
 
-const Nav = ({ showAbout, showPortfolio, showContact, showResume }) => {
+import './styles.css';
+
+const Nav = ({ showAbout, showPortfolio, showContact, showResume, active }) => {
 
     return (
 
-        <div className='mainElement'>
+        <div className='navBar'>
         
-           <nav>
-            <h1 onClick={showAbout}>ABOUT</h1>
-            <h1 onClick={showPortfolio}>PORTFOLIO</h1>
-            <h1 onClick={showContact}>CONTACT</h1>
-            <h1 onClick={showResume}>RESUME</h1>
+           <nav className='nav justify-content-end'>
+            <h1 onClick={showAbout} className={active === 1 ? 'links active' : 'links'}>ABOUT</h1>
+            <h1 onClick={showPortfolio} className={active === 1 ? 'links active' : 'links'}>PORTFOLIO</h1>
+            <h1 onClick={showContact} className={active === 1 ? 'links active' : 'links'}>CONTACT</h1>
+            <h1 onClick={showResume} className={active === 1 ? 'links active' : 'links'}>RESUME</h1>
            </nav>
 
         </div>

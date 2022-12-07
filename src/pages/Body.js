@@ -9,13 +9,13 @@ import Portfolio from '../components/Portfolio';
 import Resume from '../components/Resume';
 
 
-function Home() {
+function Body() {
 
   const [pageIndex, setPageIndex] = useState(0);
 
   return (
 
-    <div className='Home'>
+    <div className='body'>
       <Nav 
          showAbout={() => setPageIndex(0)}
          showPortfolio={() => setPageIndex(1)}
@@ -37,4 +37,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default Body;

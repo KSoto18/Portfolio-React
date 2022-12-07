@@ -1,0 +1,8 @@
+.links {
+    color: blue;
+}
+
+.links:hover,
+ .active {
+    color: purple;
+}

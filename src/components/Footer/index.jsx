@@ -6,7 +6,7 @@ const Footer = () => {
 
         <div> 
             
-            Footer Footer Footer Footer
+            <p>Created with React by KSoto18</p>
 
         </div>
 

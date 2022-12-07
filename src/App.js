@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 
-import Home from './pages/Home';
+import Body from './pages/Body';
 import Header from './components/Header';
 import Footer from './components/Footer';
 
@@ -17,7 +17,7 @@ function App() {
       </div>
 
       <div>
-        <Home />
+        <Body />
       </div>
 
       <div>
