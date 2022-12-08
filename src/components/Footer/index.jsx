@@ -1,10 +1,12 @@
 import React from 'react';
 
+import './styles.css';
+
 const Footer = () => {
 
     return (
 
-        <div> 
+        <div className='footer-location'> 
             
             <p>Created with React by KSoto18</p>
 

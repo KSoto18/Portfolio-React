@@ -1,0 +1,7 @@
+.aboutContainer {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    opacity: 0.5;
+   
+}
