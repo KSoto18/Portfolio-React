@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import './styles.css';
 
 import { BsGithub } from "react-icons/bs";
+import { BsLink} from "react-icons/bs";
 
 function Work(props) {
 
@@ -21,10 +22,11 @@ function Work(props) {
 
             { isShown && (
 
-                <div className='workInfo'>
+                <div className='workInfo' onMouseEnter={() => setIsShown(true)}
+                onMouseLeave={() => setIsShown(false)}>
                     <h2>
-                        <a target="new" href={props.link}>{props.title}</a>
-                        <p><a target="new" href={props.repo}><BsGithub />Repository</a></p>
+                        <p><a target="new" href={props.link}><BsLink /></a></p>
+                        <p><a target="new" href={props.repo}><BsGithub /></a></p>
                     </h2>
 
                 </div>

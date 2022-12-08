@@ -33,7 +33,7 @@ const Portfolio = () => {
                 },
 
                 {
-                        title: 'Weather Dashboard',
+                        title: 'Weather Board',
                         description: 'Check the weather application!',
                         link: "https://ksoto18.github.io/Weather-Dash/",
                         repo: "https://github.com/KSoto18/Weather-Dash",
@@ -42,7 +42,7 @@ const Portfolio = () => {
                 },
 
                 {
-                        title: 'Employee Tracker',
+                        title: 'Tracker',
                         description: 'Backend application that helps build your work roster.',
                         link: "Download from Repo",
                         repo: "https://github.com/KSoto18/Employee-Tracker",
@@ -64,7 +64,7 @@ const Portfolio = () => {
 
                 <section>
 
-                        <h2 className='portfolio'>Portfolio</h2>
+                        <h2 className='title'>Portfolio</h2>
 
                         <div className='workContainer'>
 
