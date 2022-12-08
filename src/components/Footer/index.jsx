@@ -13,7 +13,7 @@ const Footer = () => {
         <div className='footer-location'> 
             <div className='buttons'>
             <a href='https://github.com/KSoto18' target='new' className='footerBtn'><BsGithub /></a>
-            <a href='https://www.linkedin.com/' target='new' className='footerBtn'><BsLinkedin /></a>
+            <a href='https://www.linkedin.com/in/khristel-soto-9468a6259/' target='new' className='footerBtn'><BsLinkedin /></a>
             <a href='https://www.instagram.com/kapt_sprinkles/?hl=en' target='new' className='footerBtn'><BsInstagram /></a>
         </div>
             <p className='footer-text'> Ⓒ KSoto18 2022</p>
