@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 
+import './styles.css';
+
 function Work(props) {
 
     const [isShown, setIsShown] = useState(false);
@@ -8,24 +10,25 @@ function Work(props) {
 
         <div>
 
-            <div onMouseEnter={() => setIsShown(true)}
-                 onMouseLeave={() => setIsShown(false)} >
+            <div>
 
-                <img src={props.img} alt={props.title} />
+                <img style={{width: '525px'}} src={props.img} alt={props.title} />
 
             </div>
 
-            { isShown && (
 
-                <div>
+                <div className='workInfo'>
                     <h2>
                         <a target="new" href={props.link}>{props.title}</a>
-                        <p><a target="new" href={props.repo}>GitHub Repository</a></p>
+                        <a className='repo' target="new" href={props.repo}>GitHub Repository</a>
                     </h2>
 
                 </div>
-            ) }
 
+                
+         
+
+            
         </div>
 
     )

@@ -1,0 +1,19 @@
+
+.workContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+.title{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    opacity: 0.5;
+    align-items: center;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 5%;
+    box-shadow: 0 0 15px 2px var(--blue);
+}

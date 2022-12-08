@@ -1,5 +1,7 @@
 import React from 'react';
 
+import './styles.css';
+
 import Work from '../Work';
 
 import PokewireImg from '../../assets/PokéWire.gif';
@@ -62,12 +64,12 @@ const Portfolio = () => {
 
                 <section>
 
-                        <h2>Portfolio</h2>
+                        <h2 className='portfolio'>Portfolio</h2>
 
-                        <div >
+                        <div className='workContainer'>
 
                                 {work.map((work) => {
-                                        return <Work
+                                        return <div className='workCard'><Work
                                                 title={work.title}
                                                 description={work.description}
                                                 id={work.id}
@@ -75,6 +77,7 @@ const Portfolio = () => {
                                                 repo={work.repo}
                                                 img={work.img}
                                         />
+                                        </div>
                                 })}
 
 

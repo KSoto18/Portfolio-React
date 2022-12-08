@@ -1,0 +1,26 @@
+.workCard {
+    display: flex;
+    justify-content: center;
+    margin: 5%;
+    box-shadow: 0 0 15px 2px var(--blue);
+}
+
+.workCard:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 15px 2px white;
+ }
+
+ .workInfo{
+    display:flex;
+    position: absolute;
+    bottom: 50px;
+    left: 100px;
+    text-align: center;
+    font-size: 100px;
+ }
+
+.repo{
+    display: flex;
+    position: relative
+    
+}
