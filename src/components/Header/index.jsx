@@ -2,8 +2,6 @@ import React from 'react';
 
 import './styles.css';
 
-import { BsStars } from "react-icons/bs";
-
 
 const Header = () => {
 

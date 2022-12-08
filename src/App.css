@@ -1,3 +1,7 @@
+* {
+    font-variant: small-caps;
+}
+
 .background {
     background-image: url(./assets/starryBackground.jpg);
 }
@@ -13,3 +17,4 @@
     flex-direction: column;
     align-items: left;
 }
+
