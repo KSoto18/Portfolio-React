@@ -24,7 +24,7 @@ function Work(props) {
                 <div className='workInfo'>
                     <h2>
                         <a target="new" href={props.link}>{props.title}</a>
-                        <p><a target="new" href={props.repo}><BsGithub /> Repo</a></p>
+                        <p><a target="new" href={props.repo}><BsGithub />Repository</a></p>
                     </h2>
 
                 </div>
