@@ -13,15 +13,15 @@ function App() {
 
     <div className='background'>
 
-      <div>
+      <div className='left'>
         <Header />
       </div>
 
-      <div style={{}}>
+      <div className='center'>
         <Body />
       </div>
 
-      <div>
+      <div className='center'>
         <Footer />
       </div>
 

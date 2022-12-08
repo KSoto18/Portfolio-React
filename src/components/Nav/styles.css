@@ -1,11 +1,24 @@
+:root{
+    --blue: #33B9FF;
+}
 
+.navBtn h1 {
+    background-color: white;
+    opacity: 0.5;
+    border-radius: 10px;
+    margin: 5px;
+    margin-bottom: 10px;
+    padding: 3px;
+    font-size: larger;
+    box-shadow: 0 0 15px 2px var(--blue);
+}
 
 
 .links {
-    color: blue;
+    color: black;
 }
 
 .links:hover,
  .active {
-    color: purple;
+    color: var(--blue);
 }

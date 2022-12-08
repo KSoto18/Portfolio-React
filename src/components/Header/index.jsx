@@ -1,10 +1,11 @@
 import React from 'react';
 
+
 const Header = () => {
 
     return (
 
-        <div> 
+        <div className='devName'> 
             
             <h1>KHRIS SOTO</h1>
 
