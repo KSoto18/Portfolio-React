@@ -1,5 +1,7 @@
 import React from 'react';
 
+import './styles.css';
+
 
 const Header = () => {
 
@@ -7,7 +9,7 @@ const Header = () => {
 
         <div className='devName'> 
             
-            <h1>KHRIS SOTO</h1>
+            <h1 className='khris'>KHRIS SOTO</h1>
 
         </div>
 

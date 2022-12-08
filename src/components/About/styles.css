@@ -3,5 +3,25 @@
     flex-direction: column;
     background-color: white;
     opacity: 0.5;
-   
+    align-items: center;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 5%;
+}
+
+.pictureBox {
+    display: flex;
+    height: 200px;
+    width: 200px;
+    margin: 5%;
+    border-radius: 100px;
+    border: black solid 5px;
+}
+
+.about-me-text{
+    color: black;
+    font-weight: bold;
+    font-size: larger;
+    font-variant: small-caps;
+    padding: 2%;
 }

@@ -1,3 +1,19 @@
+
+:root{
+    --blue: #33B9FF;
+}
+
 .devName {
     justify-content: left;
+    box-shadow: 0 0 15px 2px var(--blue);
+    margin-bottom: 5%;
+    padding: 1%;
+    color: var(--blue);
+   
+}
+
+.devName h1 {
+    opacity: 0.65;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
