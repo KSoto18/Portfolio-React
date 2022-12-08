@@ -36,4 +36,5 @@
 
 .buttons a:hover{
    transform: scale(1.5);
+   box-shadow: 0 0 15px 2px white;
 }

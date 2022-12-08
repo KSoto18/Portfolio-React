@@ -1,0 +1,18 @@
+.resume{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: black;
+    font-size: x-large;
+    margin: 5%;
+  
+    
+}
+
+.downloadlink{
+    margin: 5%;    
+}
+
+.resumeImg {
+    box-shadow: 0 0 15px 2px var(--blue);
+}

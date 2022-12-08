@@ -1,11 +1,24 @@
 import React from 'react';
 
+import './styles.css'
+
+import { BsCloudDownload } from "react-icons/bs";
+
+import ResumeImg from '../../assets/Resume.jpg'
+
 const Resume = () => {
 return (
 
-    <div>
+    <div className='resume'>
 
-    <a target='new' href='https://docs.google.com/document/d/1M7PsPi8mJ33ZMtYsEwsgsDIWy7SsH1PrkVVe5jkm10o/preview'>RESUME</a>
+    <div class='resumeImg'>
+        <img src={ResumeImg} style={{width: '350px'}}></img>
+    </div>
+     
+     <div className='downloadlink'>
+    <a target='new' href='https://docs.google.com/document/d/1M7PsPi8mJ33ZMtYsEwsgsDIWy7SsH1PrkVVe5jkm10o/preview'>
+    <BsCloudDownload /> Download</a>
+    </div>
  
     </div>
 );

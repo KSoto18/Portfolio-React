@@ -8,7 +8,7 @@ const Nav = ({ showAbout, showPortfolio, showContact, showResume, active }) => {
 
         <div className='navBar'>
         
-           <nav className='nav navBtn justify-content-end'>
+           <nav className='nav navBtn justify-content-center'>
             <h1 onClick={showAbout} className={active === 1 ? 'links active' : 'links'}>ABOUT</h1>
             <h1 onClick={showPortfolio} className={active === 1 ? 'links active' : 'links'}>PORTFOLIO</h1>
             <h1 onClick={showContact} className={active === 1 ? 'links active' : 'links'}>CONTACT</h1>
