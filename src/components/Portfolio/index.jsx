@@ -9,6 +9,7 @@ import NovelSips from '../../assets/Novel-Sips.jpg';
 import Employee from '../../assets/EmployeeTracker.jpg';
 import TeamBuilder from '../../assets/TeamBuilder.jpg';
 import Weather from '../../assets/WeatherDashboard.gif';
+import Haunted from '../../assets/haunted_holidays.gif'
 
 
 const Portfolio = () => {
@@ -21,6 +22,14 @@ const Portfolio = () => {
                         repo: "https://github.com/LuckySal/pokewire",
                         img: PokewireImg
 
+                },
+
+                {
+                        title: 'Haunted Holidays',
+                        description: 'React application with MongoDB Atlas database.',
+                        link: "intense-earth-19296.herokuapp.com/",
+                        repo: "https://github.com/KSoto18/Haunted-Holidays",
+                        img:  Haunted
                 },
 
                 {
@@ -58,6 +67,7 @@ const Portfolio = () => {
                         img:  TeamBuilder
 
                 },
+
         ];
 
         return (
