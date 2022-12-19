@@ -27,7 +27,7 @@ const Portfolio = () => {
                 {
                         title: 'Haunted Holidays',
                         description: 'React application with MongoDB Atlas database.',
-                        link: "https://intense-earth-19296.herokuapp.com/",
+                        link: "https://boiling-ridge-27905.herokuapp.com/hauntedlocations",
                         repo: "https://github.com/KSoto18/Haunted-Holidays",
                         img:  Haunted
                 },
