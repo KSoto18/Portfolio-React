@@ -1,10 +1,10 @@
 {
   "files": {
     "main.css": "/Portfolio-React/static/css/main.989efa57.css",
-    "main.js": "/Portfolio-React/static/js/main.f3e101de.js",
+    "main.js": "/Portfolio-React/static/js/main.7a92211f.js",
     "static/media/haunted_holidays.gif": "/Portfolio-React/static/media/haunted_holidays.856e877869b9ce74efaf.gif",
     "static/media/PokéWire.gif": "/Portfolio-React/static/media/PokéWire.5f3a041fb13b803883e8.gif",
-    "static/media/WeatherDashboard.gif": "/Portfolio-React/static/media/WeatherDashboard.9ee3c7f994557dbb89bb.gif",
+    "static/media/WeatherDashboard.gif": "/Portfolio-React/static/media/WeatherDashboard.61aca2e8a375245eed30.gif",
     "static/media/Novel-Sips.jpg": "/Portfolio-React/static/media/Novel-Sips.e61be9cbcd9d15cd90a8.jpg",
     "static/media/starryBackground.jpg": "/Portfolio-React/static/media/starryBackground.6bb30ccda39cd43f9160.jpg",
     "static/media/TeamBuilder.jpg": "/Portfolio-React/static/media/TeamBuilder.1e572f86b8cb84d61e57.jpg",
@@ -12,10 +12,10 @@
     "static/media/Resume.jpg": "/Portfolio-React/static/media/Resume.cf900a86e3ad2d6ed664.jpg",
     "index.html": "/Portfolio-React/index.html",
     "main.989efa57.css.map": "/Portfolio-React/static/css/main.989efa57.css.map",
-    "main.f3e101de.js.map": "/Portfolio-React/static/js/main.f3e101de.js.map"
+    "main.7a92211f.js.map": "/Portfolio-React/static/js/main.7a92211f.js.map"
   },
   "entrypoints": [
     "static/css/main.989efa57.css",
-    "static/js/main.f3e101de.js"
+    "static/js/main.7a92211f.js"
   ]
 }
