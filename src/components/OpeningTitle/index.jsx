@@ -7,9 +7,11 @@ export function OpeningTitle() {
 
     return (
 
-        <div>
+        <div className='titleBox'>
 
-            <h1 class="animate__animated animate__bounce"> Khris Soto || Web Developer</h1>
+            <h1 class="animate__animated animate__bounceInLeft"> Khris Soto </h1>
+            <h1 class="animate__animated animate__bounceInRight"> Web Developer </h1>
+
 
         </div>
 
@@ -22,9 +24,10 @@ export function TitleAway() {
 
     return (
 
-        <div>
+        <div className='titleBox'>
 
-            <h1 class="animate__animated animate__bounceOutDown"> Khris Soto || Web Developer</h1>
+            <h1 class="animate__animated animate__bounceOutUp"> Khris Soto </h1>
+            <h1 class="animate__animated animate__bounceOutDown"> Web Developer </h1>
 
         </div>
     )

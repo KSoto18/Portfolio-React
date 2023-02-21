@@ -1,0 +1,25 @@
+.titleBox {
+    position: fixed;
+    left: 35%;
+    bottom: 35%;
+    text-align: center;
+
+    padding: 4rem;
+    margin: 1rem;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;   
+    
+    background-color: aquamarine;
+    
+
+}
+
+.titleBox h1 {
+    font-weight: bold;
+    font-size: 4rem;
+}
+
+.background {
+    background-image: url(../../assets/starryBackground.jpg);
+    background-size: cover;
+}
