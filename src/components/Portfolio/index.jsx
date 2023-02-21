@@ -4,7 +4,7 @@ import './styles.css';
 
 import Work from '../Work';
 
-import PokewireImg from '../../assets/PokéWire.gif';
+import PokewireImg from '../../assets/PokeWire.jpg';
 import NovelSips from '../../assets/Novel-Sips.jpg';
 import Employee from '../../assets/EmployeeTracker.jpg';
 import TeamBuilder from '../../assets/TeamBuilder.jpg';
