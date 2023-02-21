@@ -3,20 +3,31 @@ import React from 'react';
 import './styles.css';
 
 
-const OpeningTitle = () => {
+export function OpeningTitle() {
 
     return (
 
+        <div>
 
-        
-        <div> 
-            
-            <h1> Khris Soto || Web Developer</h1>
+            <h1 class="animate__animated animate__bounce"> Khris Soto || Web Developer</h1>
 
         </div>
-  
+
 
     );
 };
 
-export default OpeningTitle;
+
+export function TitleAway() {
+
+    return (
+
+        <div>
+
+            <h1 class="animate__animated animate__bounceOutDown"> Khris Soto || Web Developer</h1>
+
+        </div>
+    )
+
+
+}
