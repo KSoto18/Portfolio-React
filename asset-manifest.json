@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/Portfolio-React/static/css/main.6394baa7.css",
-    "main.js": "/Portfolio-React/static/js/main.d8ce7310.js",
+    "main.js": "/Portfolio-React/static/js/main.c492a1d0.js",
     "static/media/haunted_holidays.gif": "/Portfolio-React/static/media/haunted_holidays.856e877869b9ce74efaf.gif",
-    "static/media/PokéWire.gif": "/Portfolio-React/static/media/PokéWire.5f3a041fb13b803883e8.gif",
     "static/media/WeatherDashboard.gif": "/Portfolio-React/static/media/WeatherDashboard.61aca2e8a375245eed30.gif",
     "static/media/Novel-Sips.jpg": "/Portfolio-React/static/media/Novel-Sips.e61be9cbcd9d15cd90a8.jpg",
     "static/media/starryBackground.jpg": "/Portfolio-React/static/media/starryBackground.6bb30ccda39cd43f9160.jpg",
+    "static/media/PokeWire.jpg": "/Portfolio-React/static/media/PokeWire.4c5b44c36d919ae08b15.jpg",
     "static/media/Resume.jpg": "/Portfolio-React/static/media/Resume.b85c4c5e289a459c55a2.jpg",
     "static/media/TeamBuilder.jpg": "/Portfolio-React/static/media/TeamBuilder.1e572f86b8cb84d61e57.jpg",
     "static/media/EmployeeTracker.jpg": "/Portfolio-React/static/media/EmployeeTracker.cace4d846670a409b2ba.jpg",
     "index.html": "/Portfolio-React/index.html",
     "main.6394baa7.css.map": "/Portfolio-React/static/css/main.6394baa7.css.map",
-    "main.d8ce7310.js.map": "/Portfolio-React/static/js/main.d8ce7310.js.map"
+    "main.c492a1d0.js.map": "/Portfolio-React/static/js/main.c492a1d0.js.map"
   },
   "entrypoints": [
     "static/css/main.6394baa7.css",
-    "static/js/main.d8ce7310.js"
+    "static/js/main.c492a1d0.js"
   ]
 }
