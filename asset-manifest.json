@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Portfolio-React/static/css/main.47301a85.css",
+    "main.css": "/Portfolio-React/static/css/main.49302731.css",
     "main.js": "/Portfolio-React/static/js/main.73d53624.js",
     "static/media/haunted_holidays.gif": "/Portfolio-React/static/media/haunted_holidays.856e877869b9ce74efaf.gif",
     "static/media/WeatherDashboard.gif": "/Portfolio-React/static/media/WeatherDashboard.61aca2e8a375245eed30.gif",
@@ -11,11 +11,11 @@
     "static/media/TeamBuilder.jpg": "/Portfolio-React/static/media/TeamBuilder.1e572f86b8cb84d61e57.jpg",
     "static/media/EmployeeTracker.jpg": "/Portfolio-React/static/media/EmployeeTracker.cace4d846670a409b2ba.jpg",
     "index.html": "/Portfolio-React/index.html",
-    "main.47301a85.css.map": "/Portfolio-React/static/css/main.47301a85.css.map",
+    "main.49302731.css.map": "/Portfolio-React/static/css/main.49302731.css.map",
     "main.73d53624.js.map": "/Portfolio-React/static/js/main.73d53624.js.map"
   },
   "entrypoints": [
-    "static/css/main.47301a85.css",
+    "static/css/main.49302731.css",
     "static/js/main.73d53624.js"
   ]
 }
