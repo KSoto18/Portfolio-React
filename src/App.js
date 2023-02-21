@@ -6,9 +6,16 @@ import '../src/App.css'
 import Body from './pages/Body';
 import Header from './components/Header';
 import Footer from './components/Footer';
+import OpeningTitle  from './components/OpeningTitle'
+
+export function Title() {
+  return (
+    <OpeningTitle />
+  )
+};
 
 
-function App() {
+export function App() {
   return (
 
     <div className='background'>
@@ -29,5 +36,3 @@ function App() {
 
   );
 }
-
-export default App;

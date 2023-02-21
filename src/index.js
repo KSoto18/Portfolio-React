@@ -3,7 +3,16 @@ import React from 'react';
 
 import ReactDOM from 'react-dom';
 
-import App from './App';
+import { Title, App } from './App';
 
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(<Title />, document.getElementById('root'));
+
+// setTimeout(() => {
+//     ReactDOM.render(<OpeningTitle />, document.getElementById('root'))
+// }, 5000)
+
+setTimeout (() => {
+    ReactDOM.render(<App />, document.getElementById('root'))
+}, 10000)
+
