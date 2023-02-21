@@ -83,7 +83,7 @@ const Portfolio = () => {
                                                 title={work.title}
                                                 description={work.description}
                                                 id={work.id}
-                                                link={work.link}
+                                                link={work.link} 
                                                 repo={work.repo}
                                                 img={work.img}
                                         />

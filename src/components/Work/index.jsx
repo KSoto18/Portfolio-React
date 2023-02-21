@@ -25,8 +25,8 @@ function Work(props) {
                 <div className='workInfo' onMouseEnter={() => setIsShown(true)}
                 onMouseLeave={() => setIsShown(false)}>
                     <h2>
-                        <p><a target="new" href={props.link}><BsLink /></a></p>
-                        <p><a target="new" href={props.repo}><BsGithub /></a></p>
+                        <p><a target="new" href={props.link}><BsLink /> LINK</a></p>
+                        <p><a target="new" href={props.repo}><BsGithub /> GITHUB</a></p>
                     </h2>
 
                 </div>
