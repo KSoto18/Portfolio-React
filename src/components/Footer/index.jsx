@@ -16,7 +16,9 @@ const Footer = () => {
             <a href='https://www.linkedin.com/in/khristel-soto-9468a6259/' target='new' className='footerBtn'><BsLinkedin /></a>
             <a href='https://www.instagram.com/kapt_sprinkles/?hl=en' target='new' className='footerBtn'><BsInstagram /></a>
         </div>
-            <p className='footer-text'> Ⓒ KSoto18 2022</p>
+
+            <p className='footer-text'> Ⓒ KSoto18 2022/2023</p>
+            <p className='updateText' style={{fontSize: "12px", color: "white", textAlign: "center"}}>Updated: 02/2023</p>
 
         </div>
 
