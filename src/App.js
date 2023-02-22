@@ -30,7 +30,7 @@ export function NoTitle() {
 export function App() {
   return (
 
-    <div className='background'>
+    <div  className='background' >
 
       <div className='left'>
         <Header />
