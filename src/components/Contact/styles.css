@@ -44,7 +44,7 @@
     margin: 20px;
  }
 
- .title{
+ .title {
     display: flex;
     flex-direction: column;
     background-color: white;
@@ -52,7 +52,7 @@
     align-items: center;
     border-radius: 10px;
     padding: 20px;
-    margin: 5%;
+    margin: 4rem;
     box-shadow: 0 0 15px 2px var(--blue);
     color: black;
     font-size: xx-large;
