@@ -6,13 +6,22 @@
 .btn {
     cursor: pointer;
     display:flex;
-    padding: 3px;
     color: black;
     background-color: white;
-    font-size: 100px;
     margin: 10px;
     box-shadow: 0 0 15px 2px var(--blue);
-    border-radius: 10px; 
+    border-radius: 10px;   
+}
+
+.contactBtn {
+    font-size: 100px;
+    padding: 1rem;
+}
+
+.btn {
+    margin-top: 2rem;
+    position: relative;
+    left: 10rem;
 }
 
 .emailMe {
@@ -58,3 +67,5 @@
     font-size: xx-large;
    
 }
+
+

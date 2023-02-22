@@ -44,22 +44,22 @@ const Contact = () => {
 
                 <div className="form-group">
                     <label htmlFor="subject">Subject: </label>
-                    <input type="text" className="form-control" rows="5" placeholder='You are awesome!' name="subject" required></input>
+                    <input type="text" className="form-control" rows="5" placeholder='Subject' name="subject" required></input>
                 </div>
 
                 <div className="form-group">
                     <label htmlFor="message">Messaje: </label>
-                    <textarea name="message" className="form-control" rows="5" placeholder='You are awesome!' required></textarea>
+                    <textarea name="message" className="form-control" rows="5" placeholder='Your Message...' required></textarea>
                 </div>
 
-                <button type="submit" style={{ fontSize: '20px' }} className="btn">Send!</button>
+                <button type="submit" style={{ fontSize: '20px'}} className="btn">Send!</button>
 
             </form>
 
 
             <div className='emailMe'>
-                <p> Email Me Directly </p>
-                <a className='contactBtn' target='new' href='mailto:Khris.Soto@live.com'><BsMailbox /></a>
+                <p> or Email Me Directly </p>
+                <a className='contactBtn' target='new' href='mailto:Khris.Soto20@gmail.com'><BsMailbox /></a>
             </div>
 
 
