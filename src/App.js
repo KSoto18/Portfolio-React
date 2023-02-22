@@ -6,6 +6,7 @@ import 'animate.css';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import '../src/App.css'
 
+
 // Components/Functions
 import Body from './pages/Body';
 import Header from './components/Header';
@@ -28,9 +29,10 @@ export function NoTitle() {
 
 // Main Page
 export function App() {
+
   return (
 
-    <div  className='background' >
+    <div  className='background' > 
 
       <div className='left'>
         <Header />
@@ -45,6 +47,6 @@ export function App() {
       </div>
 
     </div>
-
+  
   );
 };
