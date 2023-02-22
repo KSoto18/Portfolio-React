@@ -1,4 +1,5 @@
 import { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 
 import './styles.css';
 
@@ -8,7 +9,18 @@ const Contact = () => {
 
     const form = useRef();
 
-    const sendEmail = () => {};
+    const sendEmail = (e) => {
+        e.preventDefault();
+    
+        emailjs.sendForm('service_1n26948', 'template_vl1lxuo', form.current, 'b48QqJ4EVb-E_mm6c')
+          .then((result) => {
+              console.log("Message successfully sent!");
+          }, (error) => {
+              console.log("Uh Oh, something went wrong!");
+          });
+
+          e.target.reset()
+      };
 
     return (
 
@@ -22,12 +34,12 @@ const Contact = () => {
 
                 <div className="form-group">
                     <label htmlFor="name">Name: </label>
-                    <input type="text" className="form-control" placeholder='Your Name' required />
+                    <input type="text" className="form-control" placeholder='Your Name' name="user_name" required />
                 </div>
 
                 <div className="form-group">
                     <label htmlFor="email">Email: </label>
-                    <input type="email" className="form-control" placeholder='Rocket@email.com' required />
+                    <input type="email" className="form-control" placeholder='Rocket@email.com' name="user_email" required />
                 </div>
 
                 <div className="form-group">

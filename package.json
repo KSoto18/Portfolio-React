@@ -4,6 +4,7 @@
   "homepage": "https://KSoto18.github.io/Portfolio-React/",
   "private": true,
   "dependencies": {
+    "@emailjs/browser": "^3.10.0",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^13.5.0",
