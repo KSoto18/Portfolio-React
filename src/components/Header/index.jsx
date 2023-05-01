@@ -10,7 +10,9 @@ const Header = () => {
         
         <div className='devName'> 
             
-            <h1 className='khris'> Khris Soto || Web Developer</h1>
+            <h1>Khris Soto </h1>
+            <h1></h1>
+            <h1>Web Developer</h1>
 
         </div>
   
