@@ -39,6 +39,8 @@
    box-shadow: 0 0 15px 2px white;
 }
 
+/* Media Break */
+
 @media only screen and (max-width: 800px) {
     .footerBtn{
      font-size: 250%;
