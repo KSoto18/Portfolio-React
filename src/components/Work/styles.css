@@ -3,7 +3,7 @@
     justify-content: center;
     margin: 5%;
     box-shadow: 0 0 15px 10px var(--blue);
-    
+    width: 100%;
 }
 
 .workCard:hover{
@@ -15,7 +15,6 @@
     position: absolute;
     bottom: 25%;
     left: 30%;
-   
  }
 
  .workInfo a {
@@ -28,4 +27,12 @@
     padding: 5px;
     margin: 10px;
     text-align: center;
+ }
+
+ /* Media Breaks */
+
+ @media only screen and (min-width: 800px) {
+   .workCard {
+     width: 40%;
+   }
  }

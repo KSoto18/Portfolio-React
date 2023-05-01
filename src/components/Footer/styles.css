@@ -3,9 +3,9 @@
 }
 
 
-.footer-location{
+.footer{
     padding: 5px;
-    margin: 10px;
+    margin: 2rem;
     opacity: 0.5;
 }
 
@@ -38,3 +38,9 @@
    transform: scale(1.5);
    box-shadow: 0 0 15px 2px white;
 }
+
+@media only screen and (max-width: 800px) {
+    .footerBtn{
+     font-size: 250%;
+    }
+  }

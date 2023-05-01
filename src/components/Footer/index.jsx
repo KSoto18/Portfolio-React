@@ -11,7 +11,7 @@ const Footer = () => {
 
     return (
 
-        <div className='footer-location'> 
+        <div className='footer'> 
             <div className='buttons'>
             <a href='https://github.com/KSoto18' target='new' className='footerBtn'><BsGithub /></a>
             <a href='https://www.linkedin.com/in/khristel-soto-9468a6259/' target='new' className='footerBtn'><BsLinkedin /></a>
