@@ -16,5 +16,6 @@
     padding: 20px;
     margin: 5%;
     box-shadow: 0 0 15px 10px var(--blue);
+    width: 80%;
 }
 

@@ -73,8 +73,10 @@ const Portfolio = () => {
         return (
 
                 <section>
-
-                        <h2 className='title'>Portfolio</h2>
+                         <div className='title'>
+                        <h2>Portfolio</h2>
+                        <p>Here you will find some projects that I have worked on or contributed to.</p>
+                        </div>
 
                         <div className='workContainer'>
 

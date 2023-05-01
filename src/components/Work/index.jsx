@@ -16,7 +16,7 @@ function Work(props) {
             <div onMouseEnter={() => setIsShown(true)}
                  onMouseLeave={() => setIsShown(false)} >
 
-                <img style={{width: '525px'}} src={props.img} alt={props.title} />
+                <img style={{width: '100%'}} src={props.img} alt={props.title} />
 
             </div>
 
