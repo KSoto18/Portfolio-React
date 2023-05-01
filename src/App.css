@@ -20,3 +20,8 @@
     align-items: left;
 }
 
+.app {
+    display: flex;
+    flex-direction: column;
+ 
+}

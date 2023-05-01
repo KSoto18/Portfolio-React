@@ -36,6 +36,28 @@
 
 .titleBackground {
     background-image: url(../../assets/starryBackground.jpg);
-    background-size: cover;
+    
     height: 100vh;
+    width: 100%;
 }
+
+/* Media Break */
+
+@media only screen and (max-width: 800px) {
+    .titleBox {
+        display: flex;
+        flex-direction: column;
+        justify-content: center; 
+        top: 25%;
+        left: 5%;
+        right: 5%;
+        align-items: center;
+        
+     
+    }
+
+    .titleBox h1 {
+        font-size: 4rem;
+    }
+
+  }
