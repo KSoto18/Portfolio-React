@@ -30,12 +30,18 @@
     font-size: larger;
     font-variant: small-caps;
     padding: 2%;
+    margin: 1rem;
+}
+
+.about-me-text p {
+    flex-direction: column;
 }
 
 .aboutMe{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 1rem;
 
 }
 

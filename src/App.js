@@ -32,7 +32,7 @@ export function App() {
 
   return (
 
-    <div  className='background' > 
+    <div  className='background app' > 
 
       <div className='left'>
         <Header />

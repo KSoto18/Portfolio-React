@@ -11,7 +11,7 @@ const About = () => {
 
             <img className='pictureBox' src='https://avatars.githubusercontent.com/u/113643158?v=4'></img>
 
-            <div className='aboutContainer' style={{ width: "800px", textAlign: "center" }}>
+            <div className='aboutContainer' style={{ width: "80%", textAlign: "center" }}>
 
                 <div className='about-me-text'>
 
