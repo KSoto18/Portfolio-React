@@ -19,8 +19,8 @@ const Footer = () => {
             <a href='https://www.codecademy.com/profiles/KSoto18' target='new' className='footerBtn'><SiCodecademy /></a>
         </div>
 
-            <p className='footer-text'> Ⓒ KSoto18 2022/2023</p>
-            <p className='updateText' style={{fontSize: "12px", color: "white", textAlign: "center"}}>Updated: 02/2023</p>
+            <p className='footer-text'> Ⓒ KSoto18 2023</p>
+            <p className='updateText' style={{fontSize: "12px", color: "white", textAlign: "center"}}>Updated: 05/2023</p>
 
         </div>
 

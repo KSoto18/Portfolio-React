@@ -3,6 +3,7 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    margin-bottom: 4rem;
 }
 
 
@@ -19,3 +20,22 @@
     width: 80%;
 }
 
+/* Media Break */
+
+@media only screen and (max-width: 800px) {
+    .title {
+     display: flex;
+    position: relative;
+    left: 1rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    }
+
+    .title p {
+        text-align: center;
+        font-size: 25px;
+    }
+
+
+
+  }
