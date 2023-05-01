@@ -15,11 +15,18 @@ const About = () => {
 
                 <div className='about-me-text'>
 
-                    <p> Hey there! My name is Khris Soto. Thank you for taking the time to look over my portfolio. Here you will find some information about me and the projects I have worked on or contributed to.</p>
+                    <p>Hello!</p>
 
-                    <p>I lived in Puerto Rico for the first 20 years of my life before moving to Orlando, Florida in 2009. Living in Orlando has been a dream of mine since I first visited with my family back when I was young. After obtaining my High School diploma I attended the Interamerican University of PR's Computer Science program for 2 years. During this time the oportunity to moved to Orlando was presented, and I took it. I was able to have a very rewarding career in the service industry but I still felt like I wanted more. Thats when I found the UCF Full-Stack Coding Bootcamp.</p>
+                    <p>My name is Khris Soto. </p>
 
-                    <p>During the Bootcamp I was able to enhance some of the skills I had learn and also obtain new ones. This program was focused in learning MERN and all of its areas.</p>
+                    <p>I am a certified Full Stack Web Develper from Orlando, FL. </p>
+
+                    <p> Coming from a background in Hospitality and Service of over 10 years, I look to combine my passion for technology and design with my expiriences to make eye-catching, user-friendy, and accesible websites and applications.</p>
+
+                    <p>I have recieved my education from the UCF Coding Boot Camp
+                        Full Stack Web Development Program in December of 2022. While my education was focused on the MERN Stack I am still exploring other technologies and frameworks that catch my interest.</p>
+
+                    <p>Thank you for taking the time to look over my portfolio!</p>
 
                 </div>
 
