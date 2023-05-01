@@ -16,7 +16,7 @@ return (
     </div>
      
      <div className='downloadlink'>
-    <a target='new' href='https://drive.google.com/uc?id=1yT7EtSpyp8nSA-n2UPCPtPC1wkyByxjG&export=download'>
+    <a target='new' href='https://drive.google.com/uc?export=download&id=1CUZZubh9tJtNo-4sdoPZ5bQZCvOjcDR_'>
     <BsCloudDownload /> Download</a>
     </div>
  
