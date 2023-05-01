@@ -68,4 +68,31 @@
    
 }
 
+/* Media Break */
 
+@media only screen and (max-width: 800px) {
+    .contact-form {
+     width: 85%;
+    }
+
+    .title {
+        width: 85%;
+    }
+
+    .emailMe {
+        margin-top: 4rem;
+    }
+
+    .emailMe p {
+        width: 85%;
+        font-size: larger;
+        text-align: center;
+    }
+
+    .contactBtn {
+        font-size: xx-large;
+        text-align: center;
+    }
+
+
+  }
