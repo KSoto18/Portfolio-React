@@ -10,6 +10,7 @@ import Employee from '../../assets/EmployeeTracker.jpg';
 import TeamBuilder from '../../assets/TeamBuilder.jpg';
 import Weather from '../../assets/WeatherDashboard.gif';
 import Haunted from '../../assets/haunted_holidays.gif'
+import Wmw from '../../assets/pkmn-wmw.jpg';
 
 
 const Portfolio = () => {
@@ -65,6 +66,15 @@ const Portfolio = () => {
                         link: "Download from Repo",
                         repo: "https://github.com/KSoto18/My-Team-Builder",
                         img:  TeamBuilder
+
+                },
+
+                {
+                        title: 'PKMN: Whats my Weakness?',
+                        description: 'Front-end application that find the weakness of a PKMN type.',
+                        link: "https://ksoto18.github.io/pkmn-wmw/",
+                        repo: "https://github.com/KSoto18/pkmn-wmw",
+                        img:  Wmw
 
                 },
 
