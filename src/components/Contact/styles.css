@@ -44,6 +44,7 @@
  }
 
  .contact-form {
+    justify-content: center;
     color: white;
     opacity: 0.5;
 
@@ -54,25 +55,24 @@
  }
 
  .title {
-    display: flex;
-    flex-direction: column;
     background-color: white;
     opacity: 0.5;
     align-items: center;
     border-radius: 10px;
-    padding: 20px;
-    margin: 4rem;
     box-shadow: 0 0 15px 2px var(--blue);
     color: black;
     font-size: xx-large;
+    text-align: center;
    
 }
+
+
 
 /* Media Break */
 
 @media only screen and (max-width: 800px) {
     .contact-form {
-     width: 85%;
+     width: 25rem;
     }
 
     .title {
@@ -92,6 +92,10 @@
     .contactBtn {
         font-size: xx-large;
         text-align: center;
+    }
+
+    .title {
+        font-size: larger;
     }
 
 

@@ -26,7 +26,7 @@ const Contact = () => {
 
         <div>
 
-            <p className='title' style={{ marginTop: "3rem", marginBottom: "3rem" }}>Send me a message!</p>
+            <p className='title' style={{ marginTop: "4rem", marginBottom: "4rem" }}>Send me a message!</p>
 
             <form ref={form} onSubmit={sendEmail}
                 className='contact-form' style={{ alignItems: "center", marginTop: "50px" }}

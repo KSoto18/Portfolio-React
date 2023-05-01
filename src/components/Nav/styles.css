@@ -11,6 +11,8 @@
     font-size: larger;
     box-shadow: 0 0 15px 2px var(--blue);
     cursor:pointer;
+    width: 10rem;
+    text-align: center;
 }
 
 
@@ -29,12 +31,18 @@
     .nav {
      display: flex;
      flex-direction: column;
-     width: fit-content;
      align-items: center; 
+     margin-bottom: 2rem;
+     margin-top: 2rem;
     }
 
     .navBar {
         display: flex;
         justify-content: center;
+    }
+
+    .navBtn h1 {
+        width: 10rem;
+        text-align: center;
     }
   }
