@@ -19,7 +19,7 @@ const Footer = () => {
         </div>
 
             <p className='footer-text'> Ⓒ KSoto18 2023</p>
-            <p className='updateText' style={{fontSize: "12px", color: "white", textAlign: "center"}}>Updated: 05/2023</p>
+            <p className='updateText' style={{fontSize: "12px", color: "white", textAlign: "center"}}>Updated: 10/2023</p>
 
         </div>
 
