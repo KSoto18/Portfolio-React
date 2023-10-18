@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio-React/static/css/main.61416f37.css",
-    "main.js": "/Portfolio-React/static/js/main.e6f1df2b.js",
+    "main.js": "/Portfolio-React/static/js/main.79b76c1e.js",
     "static/media/haunted_holidays.gif": "/Portfolio-React/static/media/haunted_holidays.856e877869b9ce74efaf.gif",
     "static/media/WeatherDashboard.gif": "/Portfolio-React/static/media/WeatherDashboard.61aca2e8a375245eed30.gif",
     "static/media/Novel-Sips.jpg": "/Portfolio-React/static/media/Novel-Sips.e61be9cbcd9d15cd90a8.jpg",
@@ -13,10 +13,10 @@
     "static/media/pkmn-wmw.jpg": "/Portfolio-React/static/media/pkmn-wmw.5ee8c3a827d217e7a1c7.jpg",
     "index.html": "/Portfolio-React/index.html",
     "main.61416f37.css.map": "/Portfolio-React/static/css/main.61416f37.css.map",
-    "main.e6f1df2b.js.map": "/Portfolio-React/static/js/main.e6f1df2b.js.map"
+    "main.79b76c1e.js.map": "/Portfolio-React/static/js/main.79b76c1e.js.map"
   },
   "entrypoints": [
     "static/css/main.61416f37.css",
-    "static/js/main.e6f1df2b.js"
+    "static/js/main.79b76c1e.js"
   ]
 }
