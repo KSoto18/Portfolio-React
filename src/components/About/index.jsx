@@ -9,7 +9,7 @@ const About = () => {
     return (
         <section className='aboutMe'>
 
-            <img className='pictureBox' src='https://media.licdn.com/dms/image/D4E03AQGbvCE02Sq-tA/profile-displayphoto-shrink_200_200/0/1675455084712?e=1688601600&v=beta&t=SlPY2WvuY9ZJFNDrMA63AMNJSzHgLTLkByGH036fj5o'></img>
+            <img className='pictureBox' src='https://avatars.githubusercontent.com/u/113643158?v=4'></img>
 
             <div className='aboutContainer' style={{ width: "80%", textAlign: "center" }}>
 
