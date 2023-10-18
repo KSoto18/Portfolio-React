@@ -15,8 +15,10 @@ const Contact = () => {
         emailjs.sendForm('service_1n26948', 'template_vl1lxuo', form.current, 'b48QqJ4EVb-E_mm6c')
           .then((result) => {
               console.log("Message successfully sent!");
+              alert("Message Sent!");
           }, (error) => {
               console.log("Uh Oh, something went wrong!");
+              alert("Message Failed! Try again.");
           });
 
           e.target.reset()
