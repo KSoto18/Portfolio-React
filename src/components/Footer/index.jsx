@@ -14,7 +14,7 @@ const Footer = () => {
         <div className='footer'> 
             <div className='buttons'>
             <a href='https://github.com/KSoto18' target='new' className='footerBtn'><BsGithub /></a>
-            <a href='www.linkedin.com/in/khris-soto-9468a6259' target='new' className='footerBtn'><BsLinkedin /></a>
+            <a href='https://www.linkedin.com/in/khris-soto-9468a6259' target='new' className='footerBtn'><BsLinkedin /></a>
             <a href='https://www.instagram.com/kaptsprinkles/?igshid=OGQ5ZDc2ODk2ZA%3D%3D&utm_source=qr' target='new' className='footerBtn'><BsInstagram /></a>
         </div>
 
