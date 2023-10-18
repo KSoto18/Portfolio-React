@@ -23,8 +23,7 @@ const About = () => {
 
                     <p> Coming from a background in Hospitality and Service of over 10 years, I look to combine my passion for technology and design with my experiences to make eye-catching, user-friendly, and accesible websites and applications.</p>
 
-                    <p>I have recieved my education from the UCF Coding Boot Camp
-                        Full Stack Web Development Program in December of 2022. While my education was focused on the MERN Stack I am still exploring other technologies and frameworks that catch my interest.</p>
+                    <p>I have recieved my education from the UCF Full Stack Web Development Program in December of 2022. While my education was focused on the MERN Stack I am still exploring other technologies and frameworks that catch my interest.</p>
 
                     <p>Thank you for taking the time to look over my portfolio!</p>
 
